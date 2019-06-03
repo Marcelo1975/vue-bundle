@@ -14,7 +14,9 @@
     "css-loader": "^2.1.1",
     "gulp": "^4.0.2",
     "vinyl-named": "^1.1.0",
+    "vue": "^1.0.21",
     "vue-loader": "^15.7.0",
+    "vue-router": "^3.0.6",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.10",
     "webpack-stream": "^5.2.1"
