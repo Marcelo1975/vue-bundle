@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<span class="sobre">Página Sobre</span>
+		<span class="posts">Página Posts</span>
 	</div>
 </template>
 
@@ -15,7 +15,7 @@
 </script>
 
 <style>
-	.sobre {
-		color:#FFFF00;
+	.posts {
+		color:#555555;
 	}
 </style>

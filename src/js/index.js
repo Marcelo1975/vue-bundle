@@ -1,11 +1,20 @@
 import App from './App.vue';
 import Home from './Home.vue';
 import Sobre from './Sobre.vue';
+import User from './User.vue';
+import UserPerfil from './UserPerfil';
+import UserPosts from './UserPosts';
+import NotFound from './NotFound.vue';
 
 const router = new VueRouter({
 	routes:[
 		{path:'/', component:Home},
-		{path:'/sobre', component:Sobre}
+		{path:'/sobre', component:Sobre},
+		{path:'/user/:id', component:User, children:[
+			{path:'perfil', component:UserPerfil}, // Url montada /user/1/perfil
+			{path:'posts', component:UserPosts} // /user/2/posts
+		]},
+		{path:'*', component:NotFound}
 	]
 });
 

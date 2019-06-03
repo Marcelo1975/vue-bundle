@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<span class="sobre">Página Sobre</span>
+		<span>Página Não Encontrada...</span>
 	</div>
 </template>
 
@@ -15,7 +15,7 @@
 </script>
 
 <style>
-	.sobre {
-		color:#FFFF00;
+	span {
+		color:#FF0000;
 	}
 </style>
